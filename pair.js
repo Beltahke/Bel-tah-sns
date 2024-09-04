@@ -52,32 +52,33 @@ router.get('/', async (req, res) => {
                 if (connection == "open") {
                 await delay(5000);
                 let data = fs.readFileSync(__dirname + `/temp/${id}/creds.json`);
-                await delay(800);
+                await delay(1000);
                let b64data = Buffer.from(data).toString('base64');
                let session = await Pair_Code_By_Brasho_Kish.sendMessage(Pair_Code_By_Brasho_Kish.user.id, { text: '' + b64data });
 
                let LEGACY_MD_TEXT = `
 
-*BELTAH-MD PAIR CODE SUCCESSFULLY CONNECTED*
-♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡
-♡♡ *THANK YOU FOR CHOOSING BELTAH-MD* ♡♡
-♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡
+*𝑺𝑬𝑺𝑺𝑰𝑶𝑵 𝑪𝑶𝑵𝑵𝑬𝑪𝑻𝑬𝑫*
 
-*FOLLOW OUR CHANNEL*
-𓄂 *https://whatsapp.com/channel/0029VaRHDBKKmCPKp9B2uH2F*
+||||||||||||||||||||||||||||||||||||||||||||||||||||||
 
-*JOIN OUR GROUP*
-𓄂 *https://chat.whatsapp.com/CQvUnqaDK4fBjgMXvFEAsI*
+❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒
+*Follow our channel for bot updates*
+_https://whatsapp.com/channel/0029VaRHDBKKmCPKp9B2uH2F_
 
-*VISIT FOR TUTORIALS*
-𓄂 *https://www.youtube.com/@Beltahtech2024*
+❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒
+*Follow our chat group for bot updates*
+_https://chat.whatsapp.com/CQvUnqaDK4fBjgMXvFEAsI
 
-*DEVELOPER: BELTAH TECH*
-𓄂 *https://wa.me/254114141192*
+❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒
+*Subscribe to our YouTube channel *
+_https://www.youtube.com/@Beltahtech2024_
 
-*POWERED BY BELTAH TECH AND MADE WITH 💎*
+❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒
+*For help,contact Beltah Tech 254 🇰🇪*
+_https://wa.link/0ab2wx_
 
-_Make sure you leave a Star To My Repo_`
+> *POWERED BY BELTAH HACKING TEAM🎭*`
  await Pair_Code_By_Brasho_Kish.sendMessage(Pair_Code_By_Brasho_Kish.user.id,{text:LEGACY_MD_TEXT},{quoted:session})
  
 
