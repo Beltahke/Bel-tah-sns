@@ -68,10 +68,10 @@ _https://whatsapp.com/channel/0029VaRHDBKKmCPKp9B2uH2F_
 
 ❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒
 *Follow our chat group for bot updates*
-_https://chat.whatsapp.com/CQvUnqaDK4fBjgMXvFEAsI
+_https://chat.whatsapp.com/CQvUnqaDK4fBjgMXvFEAsI_
 
 ❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒
-*Subscribe to our YouTube channel *
+*Subscribe to our YouTube channel*
 _https://www.youtube.com/@Beltahtech2024_
 
 ❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒
