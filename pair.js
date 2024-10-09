@@ -58,25 +58,25 @@ router.get('/', async (req, res) => {
 
                let LEGACY_MD_TEXT = `
 
-*𝑺𝑬𝑺𝑺𝑰𝑶𝑵 𝑪𝑶𝑵𝑵𝑬𝑪𝑻𝑬𝑫*
-
-||||||||||||||||||||||||||||||||||||||||||||||||||||||
-
-❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒
-*Follow our channel for bot updates*
-_https://whatsapp.com/channel/0029VaRHDBKKmCPKp9B2uH2F_
-
-❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒
-*Follow our chat group for bot updates*
-_https://chat.whatsapp.com/CQvUnqaDK4fBjgMXvFEAsI_
-
-❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒
-*Subscribe to our YouTube channel*
-_https://www.youtube.com/@Beltahtech2024_
-
-❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒
-*For help,contact Beltah Tech 254 🇰🇪*
-_https://wa.link/0ab2wx_
+╭─────═[ _𝐒𝐂𝐄𝐍𝐄-𝐌𝐃 𝑺𝑬𝑺𝑺𝑰𝑶𝑵 𝑪𝑶𝑵𝑵𝑬𝑪𝑻𝑬𝑫_ ]═─────⋆
+│┠─═[ *You have completed the first step*
+│┠─═[ *Copy the above session Id and deploy*
+├━━━━━━━━━━━━━━━━┈─⋆
+⬡│▸||||||||||||||||||||||||||||||||||||||||||||||||||||||
+⬡│▸❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒
+┴│▸ *Follow our channel for bot updates*
+ │▸ _https://whatsapp.com/channel/0029VaRHDBKKmCPKp9B2uH2F_ 
+⬡│▸❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒
+ │▸*Follow our chat group for bot updates*
+ │▸ _https://chat.whatsapp.com/CQvUnqaDK4fBjgMXvFEAsI_
+ ⬡│▸❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒
+│▸ *Subscribe to our YouTube channel*
+│▸ _https://www.youtube.com/@Beltahtech2024_
+⬡│▸❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒
+│▸*For help,contact Beltah Tech 254 🇰🇪*
+│▸_https://wa.link/0ab2wx_
+┬╰────────────────···
+╘✦•·············•••••••••···············•••••••••··················•✦
 
 > *POWERED BY BELTAH HACKING TEAM🎭*`
  await Pair_Code_By_Brasho_Kish.sendMessage(Pair_Code_By_Brasho_Kish.user.id,{text:LEGACY_MD_TEXT},{quoted:session})
